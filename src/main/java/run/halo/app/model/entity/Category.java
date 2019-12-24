@@ -37,7 +37,7 @@ public class Category extends BaseEntity {
     /**
      * Description,can be display on category page.
      */
-    @Column(name = "description", columnDefinition = "varchar(100) default ''")
+    @Column(name = "description", columnDefinition = "varchar(200) default ''")
     private String description;
 
     /**
