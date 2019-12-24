@@ -35,7 +35,7 @@ public class CategoryParam implements InputConverter<Category> {
     /**
      * Category description.
      */
-    @Size(max = 100, message = "分类描述的字符长度不能超过 {max}")
+    @Size(max = 255, message = "分类描述的字符长度不能超过 {max}")
     private String description;
 
     /**
